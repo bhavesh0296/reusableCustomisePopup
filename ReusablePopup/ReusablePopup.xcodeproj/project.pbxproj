@@ -14,6 +14,7 @@
 		40CD98B7266230530042ED27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40CD98B6266230530042ED27 /* Assets.xcassets */; };
 		40CD98BA266230530042ED27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40CD98B8266230530042ED27 /* LaunchScreen.storyboard */; };
 		40CD98C2266237940042ED27 /* ReusablePopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CD98C1266237940042ED27 /* ReusablePopupViewController.swift */; };
+		40CD98C626623F700042ED27 /* Popup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40CD98C526623F700042ED27 /* Popup.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		40CD98B9266230530042ED27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40CD98BB266230530042ED27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40CD98C1266237940042ED27 /* ReusablePopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusablePopupViewController.swift; sourceTree = "<group>"; };
+		40CD98C526623F700042ED27 /* Popup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Popup.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				40CD98AD266230510042ED27 /* AppDelegate.swift */,
 				40CD98AF266230510042ED27 /* SceneDelegate.swift */,
+				40CD98C526623F700042ED27 /* Popup.storyboard */,
 				40CD98C1266237940042ED27 /* ReusablePopupViewController.swift */,
 				40CD98B1266230510042ED27 /* ViewController.swift */,
 				40CD98B3266230510042ED27 /* Main.storyboard */,
@@ -131,6 +134,7 @@
 				40CD98BA266230530042ED27 /* LaunchScreen.storyboard in Resources */,
 				40CD98B7266230530042ED27 /* Assets.xcassets in Resources */,
 				40CD98B5266230510042ED27 /* Main.storyboard in Resources */,
+				40CD98C626623F700042ED27 /* Popup.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

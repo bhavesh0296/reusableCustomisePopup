@@ -34,7 +34,6 @@ class ReusablePopupViewController: UIViewController {
     }
 
     @IBAction func actionButtonClicked(_ sender: UIButton) {
-//        self.navigationController?.dismiss(animated: true, completion: nil)
         action?()
         self.dismiss(animated: true, completion: nil)
     }

@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 
 
     func presentPopup(_ title: String = "", message: String = "", actionName: String = "OK", action: (()->Void)?){
-        let popup = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: ReusablePopupViewController.storyboardIdentifier) as! ReusablePopupViewController
+        let popup = UIStoryboard.init(name: "Popup", bundle: nil).instantiateViewController(withIdentifier: ReusablePopupViewController.storyboardIdentifier) as! ReusablePopupViewController
         popup.modalPresentationStyle = .overCurrentContext
         popup.modalTransitionStyle = .crossDissolve
         popup.title = title
