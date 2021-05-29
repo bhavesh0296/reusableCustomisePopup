@@ -17,7 +17,7 @@ class ViewController: UIViewController {
 
     @IBAction func presentPopup(_ sender: UIButton) {
         presentPopup(self ,title: "Congratulations", message: "You've just displayed this awesome Pop Up View", actionName: "Done") {
-            print("This is the action")
+            print("pop up action button clicked")
         }
 
     }

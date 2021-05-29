@@ -62,8 +62,7 @@
 			children = (
 				40CD98AD266230510042ED27 /* AppDelegate.swift */,
 				40CD98AF266230510042ED27 /* SceneDelegate.swift */,
-				40CD98C526623F700042ED27 /* Popup.storyboard */,
-				40CD98C1266237940042ED27 /* ReusablePopupViewController.swift */,
+				40CD98ED26624D1F0042ED27 /* popup */,
 				40CD98B1266230510042ED27 /* ViewController.swift */,
 				40CD98B3266230510042ED27 /* Main.storyboard */,
 				40CD98B6266230530042ED27 /* Assets.xcassets */,
@@ -71,6 +70,15 @@
 				40CD98BB266230530042ED27 /* Info.plist */,
 			);
 			path = ReusablePopup;
+			sourceTree = "<group>";
+		};
+		40CD98ED26624D1F0042ED27 /* popup */ = {
+			isa = PBXGroup;
+			children = (
+				40CD98C526623F700042ED27 /* Popup.storyboard */,
+				40CD98C1266237940042ED27 /* ReusablePopupViewController.swift */,
+			);
+			path = popup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
