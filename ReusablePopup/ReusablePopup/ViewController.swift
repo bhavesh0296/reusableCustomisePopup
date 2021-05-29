@@ -16,17 +16,17 @@ class ViewController: UIViewController {
     }
 
     @IBAction func presentPopup(_ sender: UIButton) {
-        presentPopup("Hello", message: "we showed reusable popup", actionName: "OK") {
+        presentPopup(self ,title: "Congratulations", message: "You've just displayed this awesome Pop Up View", actionName: "Done") {
             print("This is the action")
         }
+
     }
 
-
-    func presentPopup(_ title: String = "", message: String = "", actionName: String = "OK", action: (()->Void)?){
+    func presentPopup(_ viewControllerToPresent: UIViewController, title: String = "", message: String = "", actionName: String = "OK", action: (()->Void)?){
         let popup = UIStoryboard.init(name: "Popup", bundle: nil).instantiateViewController(withIdentifier: ReusablePopupViewController.storyboardIdentifier) as! ReusablePopupViewController
         popup.modalPresentationStyle = .overCurrentContext
         popup.modalTransitionStyle = .crossDissolve
-        popup.title = title
+        popup.popuptitle = title
         popup.message = message
         popup.actionTitle = actionName
         popup.action = action
